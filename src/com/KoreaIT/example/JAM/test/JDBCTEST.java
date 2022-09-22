@@ -24,7 +24,7 @@ public class JDBCTEST {
 				if (conn != null && !conn.isClosed()) {
 					conn.close();
 				}
-			} catch (SQLException e) {
+			} catch (SQLException e) { //asdfasdf
 				e.printStackTrace();
 			}
 		}
