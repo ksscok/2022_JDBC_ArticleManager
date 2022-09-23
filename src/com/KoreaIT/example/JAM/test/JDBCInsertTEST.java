@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class JDBCTEST {
+public class JDBCInsertTEST {
 	public static void main(String[] args) {
 		Connection conn = null;
 
@@ -24,7 +24,7 @@ public class JDBCTEST {
 				if (conn != null && !conn.isClosed()) {
 					conn.close();
 				}
-			} catch (SQLException e) { //asdfasdf asdfasdf
+			} catch (SQLException e) {
 				e.printStackTrace();
 			}
 		}
